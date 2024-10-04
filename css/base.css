@@ -59,7 +59,7 @@ line-height: 6.8rem; text-align: center; z-index: 999;}
 .me{background: url(../images/me.png) no-repeat; width: 25.1rem; height: 25.1rem; margin: 2.5rem auto;}
 .prof_txt{width: 60%;}
 .prof_txt h6{font-size: 2.4rem; font-weight: 700; margin: 0.6rem 0;}
-.prof_txt p{font-size: 1.8rem; line-height: 3rem;}
+.prof_txt p{font-size: 1.6rem; line-height: 3rem;}
 .prof_txt p>i{margin-right: 0.3rem;}
 .prof_txt>i{background: #d1d1d1; width: 100%; height: 1px; 
     display: block; margin: 1.3rem 0;}
