@@ -1,0 +1,174 @@
+html{font-size: 10px;}
+
+/* top버튼 */
+#btn-back-to-top{width: 6.8rem; height: 6.8rem; background-color: #ff9921;
+border-radius: 50%; position: fixed; bottom: 48px; right: 10px;
+line-height: 6.8rem; text-align: center; z-index: 999;}
+#btn-back-to-top a{display: block; width: 100%; height: 100%;}
+#btn-back-to-top:hover{
+    background-color: #ff6600; transition: all 0.5s ease;
+}
+#btn-back-to-top>i{color: #fff;}
+
+.main{
+    background: url("../images/back-img.jpg") no-repeat;
+    background-size: cover;
+    height: 96.3rem;
+    padding: 0 3rem;
+}
+
+.center{height: 100%;}
+.center>i{position:absolute; background: url(../images/mouse.svg) no-repeat;
+    left: 50%; bottom:0; transform: translateY(-50%); width: 5rem; height: 5rem;
+    animation: motion 0.6s linear 0s infinite alternate;
+}
+@keyframes motion{
+	0% {margin-bottom: 0px;}
+	100% {margin-bottom: 10px;}
+}
+
+
+.main_txt1{padding: 2rem 0;}
+.main_txt1 p:first-child{font-size: 3rem; color: #fff; font-weight: 700;}
+.main_txt1 p:last-child{font-size: 1.8rem; font-weight: 400; color: #878787;}
+
+.main_txt2{margin: 23rem 0;}
+.main_txt2 h1{font-size: 9rem; color: #fff; margin-bottom: 2rem;}
+.main_txt2 p{font-size: 2.8rem; color: #fff; font-weight: 400;}
+
+.wrap{margin-top: 10rem;}
+.tit_head{display: flex;}
+.head{background-color: #4767a1; margin-top: 3rem; margin-right: 2rem;
+    width: 28.6rem; height: 38.9rem; padding: 4rem; border-radius: 5rem;}
+.head_inner{margin: 0 auto; height: 100%;}
+.head_inner h2{font-size: 3.8rem; color: #fff;}
+.head_inner h2>i{width: 1.3rem; height: 1.3rem; background-color: #ff9921; display: inline-block; border-radius: 50%;}
+.head_inner a{margin-top: 4.4rem; display: block; color: #fff;}
+.head_inner a>i{font-size: 1.8rem; margin-right: 1rem;}
+.head_inner a>span{font-size: 1.8rem;}
+.head_inner a:hover{color: #ff9921;}
+
+
+.section1{width: 90.4rem; height: 38.9rem; background-color: #fff; box-shadow: 0 0 3px #d1d1d1; border-radius: 5rem;
+    margin-top: 3rem; padding: 3rem;
+}
+.sect1_inner{display: flex; height: 100%; overflow: hidden;}
+.prof{width: 40%;}
+.prof h3{font-size: 3.2rem;}
+.prof>i{display: block; width: 4.6rem; height: 0.4rem; background-color: #ff9921; border-radius: 25rem;}
+.me{background: url(../images/me.png) no-repeat; width: 25.1rem; height: 25.1rem; margin: 2.5rem auto;}
+.prof_txt{width: 60%;}
+.prof_txt h6{font-size: 2.4rem; font-weight: 700; margin: 0.6rem 0;}
+.prof_txt p{font-size: 1.8rem; line-height: 3rem;}
+.prof_txt p>i{margin-right: 0.3rem;}
+.prof_txt>i{background: #d1d1d1; width: 100%; height: 1px; 
+    display: block; margin: 1.3rem 0;}
+.text p{font-size: 1.9rem; font-weight: bold;}
+
+.sect2{
+    margin-left: 31rem; width: 89.5rem; 
+    background-color: #fff; box-shadow: 0 0 3px #d1d1d1; border-radius: 5rem;
+    margin-top: 8rem; padding: 3rem;}
+.sect2box{position: relative; padding: 5rem 0;}
+.sect2box .box{display: flex; margin-bottom: 5rem;}
+.sect2box .box .date{
+    color: #666; min-width: 160px; margin-right: 2rem;
+    position: relative; font-size: 1.6rem;
+}
+.sect2box .box .first:after{
+    content: "";
+    width: 8px; height: 8px;
+    background-color: #ff9921;
+    border: 1px solid #ff9921;
+    border-radius: 50%; position: absolute;
+    top: 0.7rem; right: 0.2rem; z-index: 2;
+}
+.sect2box .box .date::before{
+    content: "";
+    width: 14px; height: 14px;
+    background-color: #fff;
+    border: 1px solid #ff9921;
+    border-radius: 50%; position: absolute;
+    top: 0.4rem; right: 0; z-index: 1;
+}
+.sect2box .box .time h3{
+    word-break: keep-all;
+}
+.sect2box .box .time p{
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+    color: #666;
+    margin-top: 0.5rem;
+    word-break: keep-all;
+}
+.sect2box .box-bar{
+    position: absolute; width: 1px; border-right: 2px solid #ff9921;
+    top: 14px; bottom: 0; left: 15.1rem;
+}
+.sect2box .box-bar::before{
+    content: "";
+    display: block;
+    width: 1rem; height: 1rem; border-radius: 50%;
+    background-color: #ff9921; z-index: 1; position: absolute;
+    top: 0; left: -4px;
+}
+.sect2box .box-bar::after{
+    content: "";
+    display: block;
+    width: 1rem; height: 1rem; border-radius: 50%;
+    background-color: #ff9921; z-index: 1;
+    position: absolute; bottom: 0; left: -4px;
+}
+
+.sect3{
+    width: 89.5rem; margin-left: 31rem; margin-top: 8rem;
+    background-color: #fff; box-shadow: 0 0 3px #d1d1d1; border-radius: 5rem; padding: 3rem;}
+.sect3_inner .btn {margin-top: 5.3rem;}
+.sect3_inner .btn div{margin-bottom: 2.4rem;}
+.sect3_inner .btn div>a{
+    display: block;
+    width: 80rem; height: 20.4rem;
+    border: 1px solid #d1d1d1; border-radius: 25px;
+    text-align: center; margin: 0 auto;
+    padding: 6rem 0; 
+}
+.sect3_inner .btn div>a:hover{background-color: #4767a1;
+    color: #fff; border: transparent; transition: all 0.5s ease;}
+.sect3_inner .btn div>a:hover span:last-child{color: #fff;
+    transition: all 0.5s ease;}
+.sect3_inner .btn div>a:hover i{
+    color: #fff !important; transition: all 0.5s ease;
+}
+.sect3_inner .btn div>a>i{
+    display: block;
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+}
+.sect3_inner .btn div>a>span{
+    display: block;
+}
+.sect3_inner .btn div>a>span{
+    font-size: 2.4rem; font-weight: bold;
+}
+.sect3_inner .btn div>a>span:last-child{
+    font-size: 1.6rem; font-weight: 300; color: #999;
+    margin-top: 1rem;
+}
+
+.sect4{
+    width: 89.5rem; margin-left: 31rem; margin-top: 8rem;
+    background-color: #fff; box-shadow: 0 0 3px #d1d1d1; border-radius: 5rem; padding: 3rem;}
+.s4_box1{margin-top: 1rem;}
+.s4_box1 , .s4_box2{display: flex; align-items: center; flex-wrap: wrap;}
+.s4_box1 .moni_img1, .s4_box2 .moni_img2 {width: 50%;}
+.s4_box1 .moni_img1 a , .s4_box2 .moni_img2 a {max-width: 37.7rem; width: 100%; height: 31.9rem; display: block;}
+.s4_box1 .moni_img1 a{background: url("../images/mockup1.png") no-repeat center; background-size: cover;}
+.s4_box2 .moni_img2 a{background: url("../images/mockup2.png") no-repeat center; background-size: cover;}
+
+.s4_textbox{width: 50%;}
+.s4_textbox .s4_first_txt h4{font-size: 3.2rem; font-weight: bold; margin-bottom: 1rem;}
+.s4_textbox .s4_first_txt p{font-size: 1.8rem; color: #999;}
+
+.s4_textbox .s4_last_txt .b1{display: flex; font-size: 2rem; margin-top: 1rem;}
+.s4_textbox .s4_last_txt .b1 span:first-child{width: 30%; min-width: 100px;}
+.s4_textbox .s4_last_txt .b1 span:last-child{width: 70%;}

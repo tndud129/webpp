@@ -1,0 +1,39 @@
+@media (max-width:1200px) {
+.main_txt1 p:first-child{font-size: 2.1rem;}
+.main_txt1 p:last-child{font-size: 1.6rem;}
+.main_txt2 h1{font-size: 6.2rem;}
+.main_txt2 p{font-size: 2.7rem;}
+.tit_head{display: block; padding: 0 2rem;}
+.head{display: none;}
+.section1{width: 100%; height: 100%;}
+.prof_txt h6{font-size: 2.3rem;}
+.prof_txt p{font-size: 1.7rem;}
+.text p{font-size: 1.6rem;}
+.section2 , .section3 , .section4{padding: 0 2rem;}
+.sect2 , .sect3 , .sect4{margin-left: 0; width: 100%;}
+.sect3_inner .btn div>a{width: 100%;}
+.s4_box1{margin-bottom: 4rem;}
+.s4_box1 .moni_img1 a , .s4_box2 .moni_img2 a {margin: 0 auto;}
+.s4_box1 .moni_img1, .s4_box2 .moni_img2 {width: 100%;}
+.s4_textbox{width: 100%; position: relative;}
+.s4_textbox .s4_first_txt h4{text-align: center; margin-top: 2rem;}
+.s4_textbox .s4_first_txt p{text-align: center;}
+.s4_last_txt{ width: 30%; margin: 2rem auto 0;}
+}
+
+
+@media (max-width:800px) {
+.main{height: 78rem;}
+.main_txt2 h1{font-size: 4.2rem;}
+.main_txt2 p{font-size: 2.1rem;}
+.sect1_inner{flex-wrap: wrap;}
+.prof{width: 100%;}
+.prof_txt{width: 100%;}
+.s4_last_txt{width: 50%;}
+.s4_textbox .s4_last_txt .b1 span:first-child{min-width: 60px;}
+.s4_textbox .s4_last_txt .b1{font-size: 1.6rem;}
+.s4_box1 .moni_img1 a{background-size: contain;}
+.s4_box2 .moni_img2 a{background-size: contain;}
+
+
+}

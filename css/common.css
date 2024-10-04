@@ -1,0 +1,42 @@
+.flex-type01{display: flex; justify-content: space-between;}
+.flex-type02{display: flex; justify-content: flex-start;}
+.flex-type03{display: flex; justify-content: flex-end;}
+.blind{position: absolute; left: -9999px; font-size: 0;}
+.center{max-width: 1200px; margin: 0 auto; position: relative;}
+
+/* Common */
+*{margin: 0; padding: 0; box-sizing: border-box;}
+ul,ol,li{list-style: none;}
+a{color: #333; text-decoration: none; cursor: pointer;}
+a:link, a:hover, a:active, a:focus {text-decoration: none; cursor: pointer; color: #555;}
+html{font-size: 10px; overflow-y: scroll;}
+body{word-break: keep-all; color: #333; font-size: 1.3rem; 
+    font-family: "Noto Sans KR-Light", sans-serif; background-color: #f9f7f7;}
+
+input, textarea, button, select{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+}
+
+@font-face {
+    font-family: 'Happiness-Sans-Bold';
+    src: url(font/Happiness-Sans-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Happiness-Sans-Regular';
+    src: url(font/Happiness-Sans-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+img{border: 0 none; max-width: 100%;}
+img, input, select, textarea{vertical-align: middle;}
+button, label{cursor: pointer; border:  none; padding: 0;}
