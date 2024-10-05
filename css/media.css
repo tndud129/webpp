@@ -29,11 +29,12 @@
 .sect1_inner{flex-wrap: wrap;}
 .prof{width: 100%;}
 .prof_txt{width: 100%;}
+.sect2{width: 100%;}
+/* .sect2box .box .date{min-width: 90px;} */
 .s4_last_txt{width: 50%;}
 .s4_textbox .s4_last_txt .b1 span:first-child{min-width: 60px;}
 .s4_textbox .s4_last_txt .b1{font-size: 1.6rem;}
 .s4_box1 .moni_img1 a{background-size: contain;}
 .s4_box2 .moni_img2 a{background-size: contain;}
-
 
 }

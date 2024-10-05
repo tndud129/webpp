@@ -65,6 +65,7 @@ line-height: 6.8rem; text-align: center; z-index: 999;}
     display: block; margin: 1.3rem 0;}
 .text p{font-size: 1.9rem; font-weight: bold;}
 
+.section2{height: auto; margin-bottom: 8rem;}
 .sect2{
     margin-left: 31rem; width: 89.5rem; 
     background-color: #fff; box-shadow: 0 0 3px #d1d1d1; border-radius: 5rem;
@@ -121,7 +122,7 @@ line-height: 6.8rem; text-align: center; z-index: 999;}
 }
 
 .sect3{
-    width: 89.5rem; margin-left: 31rem; margin-top: 8rem;
+    width: 89.5rem; margin-left: 31rem;
     background-color: #fff; box-shadow: 0 0 3px #d1d1d1; border-radius: 5rem; padding: 3rem;}
 .sect3_inner .btn {margin-top: 5.3rem;}
 .sect3_inner .btn div{margin-bottom: 2.4rem;}
