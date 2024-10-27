@@ -11,7 +11,7 @@ a{color: #333; text-decoration: none; cursor: pointer;}
 a:link, a:hover, a:active, a:focus {text-decoration: none; cursor: pointer; color: #555;}
 html{font-size: 10px; overflow-y: scroll;}
 body{word-break: keep-all; color: #333; font-size: 1.3rem; 
-    font-family: "Noto Sans KR-Light", sans-serif; background-color: #f9f7f7;}
+    font-family: 'Happiness-Sans-Regular', sans-serif; background-color: #f9f7f7;}
 
 input, textarea, button, select{
     appearance: none;
@@ -24,17 +24,25 @@ input, textarea, button, select{
 
 @font-face {
     font-family: 'Happiness-Sans-Bold';
-    src: url(font/Happiness-Sans-Bold.ttf);
+    src: url(/font/Happiness-Sans-Bold.ttf);
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Happiness-Sans-Regular';
-    src: url(font/Happiness-Sans-Regular.ttf);
+    src: url(/font/Happiness-Sans-Regular.ttf);
     font-weight: 400;
     font-style: normal;
 }
+@font-face {
+    font-family: "JalnanGothicTTF";
+    font-weight: normal;
+    font-style: normal;
+    src: url(/font/JalnanGothicTTF.ttf);
+}
+
+
 
 
 img{border: 0 none; max-width: 100%;}

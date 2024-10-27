@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>리뉴얼-부산환경공단</title>
+    <link rel="shortcut icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="./css/total.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c2e29c38f7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="btn-back-to-top" onclick="backToTop()" title="위로 가기">
+        <a href="#none">
+            <i class="fa-solid fa-chevron-up fa-lg" style="color: #ffffff;"></i>
+        </a>
+    </div>
+    <header id="header">
+        <nav class="center flex-type01">
+            <ul class="flex-type01">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="index.html">ABOUT</a></li>
+                <li><a href="index.html">PORTFOLIO</a></li>
+            </ul>
+            <h1>Sy Yeong</h1>
+        </nav>
+    </header>
+    <div class="sub2_main">
+        <div class="main_bg"></div>
+        <div class="main_content">
+            <img src="images/mockup.png" alt="mockup">
+            <div class="main_txt">
+                <h1>부산환경공단 홈페이지 리뉴얼</h1>
+                <p>반응형, 코딩&디자인 자체제작 100%</p>
+                <a href="https://tndud129.github.io/busan/">
+                    <span>사이트 바로보기</span>
+                </a>
+            </div><!-- main_txt -->
+            <div class="beaf">
+                <img src="images/bear.png" alt="beforeafter">
+            </div><!-- beaf -->
+            <div class="page center">
+                <img src="images/page1.png" alt="page1">
+                <img src="images/page2.png" alt="page2">
+                <img src="images/page3.png" alt="page3">
+                <img src="images/page4.png" alt="page4">
+                <img src="images/page5.png" alt="page5">
+                <img src="images/page6.png" alt="page6">
+                <img src="images/page7.png" alt="page7">
+            </div><!-- page -->
+        </div>
+    </div><!-- main -->
+    <script src="./js/main.js"></script>
+    <script src="./js/click.js"></script>
+    <script>
+        const header = document.querySelector("#header");
+
+        document.addEventListener("scroll", ()=>{
+            if(window.pageYOffset > 200){
+                header.classList.add("fixed");
+            }else{
+                header.classList.remove("fixed");
+            }
+        });
+    </script>
+</body>
+</html>
