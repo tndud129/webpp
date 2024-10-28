@@ -23,3 +23,18 @@ function backToTop() {
     }
 }
 
+const closeBtn = document.querySelector(".closeBtn");
+const m_menu = document.querySelector(".m_menu");
+const m_menuIcon = document.querySelector(".m_header_inner i");
+
+closeBtn.addEventListener('click', ()=>{
+    m_menu.style.display = 'none';
+    document.documentElement.style.overflow = ''; 
+    document.body.style.overflow = '';
+});
+m_menuIcon.addEventListener('click', ()=>{
+    m_menu.style.display = 'block';
+    document.documentElement.style.overflow = 'hidden';
+    document.body.style.overflow = 'hidden';
+});
+
