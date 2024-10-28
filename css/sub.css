@@ -80,5 +80,6 @@ body{background-color: #fff;}
     @media (max-width:450px) {
         .main_txt h1{font-size: 2rem;}
         .main_txt p{font-size: 1.8rem;}
+        .m_menu{width:100%;}
     }
 }
