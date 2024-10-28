@@ -70,6 +70,7 @@ body{background-color: #fff;}
     .main_bg{height: 35rem; background-size: cover;}
 
     @media (max-width:750px) {
+        .m_menu{width:100%;}
         .main_bg{height: 25rem; background-size: cover;}
         .main_content img{margin-top: 10rem;}
         .main_txt h1{font-size: 2.6rem;}
