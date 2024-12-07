@@ -173,3 +173,12 @@ line-height: 6.8rem; text-align: center; z-index: 999;}
 .s4_textbox .s4_last_txt .b1{display: flex; font-size: 2rem; margin-top: 1rem;}
 .s4_textbox .s4_last_txt .b1 span:first-child{width: 30%; min-width: 100px;}
 .s4_textbox .s4_last_txt .b1 span:last-child{width: 70%;}
+
+.s4_box3{display: flex; flex-wrap: wrap; align-items: center;}
+.sangImg{width: 50%;}
+.sangImg a{background: url(../images/sangsang.png)no-repeat center;
+    background-size: cover; 
+    display: block;
+    max-width: 37.7rem; height: 31.9rem; width: 100%;
+}
+.s4_textbox{width: 50%;}
