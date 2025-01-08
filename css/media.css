@@ -21,7 +21,10 @@
 .s4_last_txt{ width: 30%; margin: 2rem auto 0;}
 
 .sangImg{width: 100%;}
+.sangImg a{margin: 0 auto;}
 .s4_textbox{width: 100%;}
+.jouerImg{width: 100%;}
+.jouerImg a{margin: 0 auto;}
 }
 
 
@@ -39,5 +42,7 @@
 .s4_textbox .s4_last_txt .b1{font-size: 1.6rem;}
 .s4_box1 .moni_img1 a{background-size: contain;}
 .s4_box2 .moni_img2 a{background-size: contain;}
+.sangImg a{background-size: contain;}
+.jouerImg a{background-size: contain;}
 
 }
