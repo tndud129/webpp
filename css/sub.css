@@ -47,7 +47,7 @@ body{background-color: #fff;}
     background: url(../images/nuts2.jpg) no-repeat;
     background-size: 100%;
     display: block;
-    width: 100%; height: 1100px;
+    width: 100%; height: 1500px;
 }
 
 @media (max-width: 1300px) {
