@@ -41,6 +41,10 @@ body{background-color: #fff;}
 .sub3 ul>li>figure{width: 100%;}
 .sub3 img{width: 100%; height: auto; display: block;}
 
+.sub4{width: 100%;}
+.sub4 div{margin: 0 auto; width: 860px;}
+.sub4 div img{width: 100%; height: auto; display: block;}
+
 @media (max-width: 1300px) {
     #header{display: none;}
     .m_header{padding: 2rem; z-index: 100; width: 100%; height: 5rem;
